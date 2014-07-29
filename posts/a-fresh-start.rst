@@ -1,6 +1,6 @@
 .. title: A Fresh Start
 .. slug: a-fresh-start
-.. date: 2014-07-25 01:02:43 UTC-04:00
+.. date: 2014-07-24 01:02:43 UTC-04:00
 .. tags: Site News
 .. link: 
 .. description: An explanation of why everything is missing

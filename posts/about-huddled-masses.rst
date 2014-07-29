@@ -1,6 +1,6 @@
 .. title: About Huddled Masses
 .. slug: about-huddled-masses
-.. date: 2014-07-25 01:02:18 UTC-04:00
+.. date: 2014-07-21 01:02:18 UTC-04:00
 .. tags: Site News
 .. link: 
 .. description: What this site is about
