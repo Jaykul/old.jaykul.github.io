@@ -45,3 +45,11 @@
     </li>
 {% endif %}
 {% endblock %}
+
+
+{% block sidebar %}
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Latest Posts</h4>
+    {% include 'post_list_directive.tmpl' %}
+</div>
+{% endblock %}
