@@ -61,8 +61,13 @@
     <div class="body-content">
         <!--Body content-->
         <div class="row">
-            {{ template_hooks['page_header']() }}
-            {% block content %}{% endblock %}
+            <div class="col-sm-8 blog-main">
+                {{ template_hooks['page_header']() }}
+                {% block content %}{% endblock %}
+            </div>
+            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                {% include 'sidebar.tmpl' %}
+            </div>
         </div>
         <!--End of body content-->
 

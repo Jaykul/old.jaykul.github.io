@@ -40,8 +40,6 @@ td.label {
     font-size: xx-small;
 }
 
-
-
 .caption {
     /* Issue 292 */
     text-align: center;
@@ -200,3 +198,12 @@ footer p {
     clear: left;
     margin-bottom: 0;
 }
+
+
+
+/* Hacks For Diigo */
+#diigo_linkroll img { display: none; }
+/* Hacks For Twitter */
+a.twitter-timeline { color: #3498db;}
+
+
