@@ -94,6 +94,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
+        ("/stories/missing-content/", "Missing Content"),
         ("/categories/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
@@ -159,14 +160,14 @@ DATE_FORMAT = '%Y-%m-%d %H:%M'
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.tx", "posts", "post.tmpl"),
+    ("posts/*.rst", "", "post.tmpl"),
+    ("posts/*.md",  "", "post.tmpl"),
+    ("posts/*.tx",  "", "post.tmpl"),
 )
 PAGES = (
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.md", "stories", "story.tmpl"),
-    ("stories/*.tx", "stories", "story.tmpl"),
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.md",  "", "story.tmpl"),
+    ("pages/*.tx",  "", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -442,7 +443,11 @@ RSS_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_rea
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+LICENSE = """
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike">
+<img alt="Creative Commons Attribution-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+</a>
+"""
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
 # LICENSE = """
@@ -673,12 +678,13 @@ SEARCH_FORM = """
 # bootstrap is served from the NetDNA CDN
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-# USE_CDN = False
+USE_CDN = False
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
 # EXTRA_HEAD_DATA = ""
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)

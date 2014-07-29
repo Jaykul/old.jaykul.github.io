@@ -2,3 +2,6 @@
 output/
 cache/
 .doit.db
+themes/base-jinja/
+themes/bootstrap-jinja/
+themes/bootstrap3-jinja/
