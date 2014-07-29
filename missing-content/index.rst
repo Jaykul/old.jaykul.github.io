@@ -10,4 +10,4 @@ Since I've blown away all my old blog content, there are a lot of pages missing 
 I'm going to bring the best of them back, and I have plans to actually rewrite some of the older ones to update them 
 (part of the reason I let the old ones go is that some of them were so out-of-date that they might have been misleading).
 
-If there is one or more of my old articles in particular that you'd like to see come back, please post a comment below, or `email me <mailto:Jaykul@HuddledMasses.org>`_!
+If there is one or more of my old articles in particular that you'd like to see come back, please post a comment below!

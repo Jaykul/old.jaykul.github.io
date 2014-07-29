@@ -10,6 +10,7 @@ A few weeks ago, someone somehow injected a shell onto my WordPress powered blog
 
 I apologize for all the hundreds of broken links that are pointed at my domain right now. I have a database backup, but I want to try a few other blogging tools out, and I am not sure I can trust the downloads or even images on the old site -- I don't want to restore all the posts *and then* find out the downloads are infected or the images have been replaced. Furthermore, when I stood up a new WordPress site, it did not perform well on my DreamHost server, and I started to wonder if I needed new hosting or new blogging tools.
 
+.. TEASER_END
 
 A state of flux
 ---------------
@@ -18,7 +19,6 @@ In the end, to try switching to a static site generator instead of a server-side
 
 I also decided that I will not restore the database backup and deal with cleaning all the downloads that have accumulated in the last ... almost 20 years of blogging (isn't that crazy?).  Instead,  I will start over. I can still restore individual articles from my old blog by hand (at least the ones that people really are still looking for), and that will give me the chance to update the content and to convert them to markdown (yeah, I think textile lost that battle).
  
-Please `let me know`_ when you hit a missing page that you want back, and I'll move that up my priority list.
+Please :doc:`let me know <missing-content>`_ when you hit a missing page that you want back, and I'll move that up my priority list.
 
 .. _StaticGen: http://www.staticgen.com/
-.. _let me know: mailto:Jaykul+MissingPage@HuddledMasses.org
