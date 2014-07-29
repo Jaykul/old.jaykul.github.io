@@ -149,35 +149,30 @@ article: http://ogp.me/ns/article#
     </aside>
         <section class="comments">
         <h2><a href="javascript:void(0)" id="comments" title="Click for comments">Comments...</a></h2>
-                    <div id="disqus_thread"></div>
-    <script>
+                        <div id="disqus_thread"></div>
+        <script>
         var disqus_shortname ="huddledmasses",
-        disqus_url="http://blog.HuddledMasses.org/a-fresh-start/",
+            disqus_url="http://blog.HuddledMasses.org/a-fresh-start/",
         disqus_title="A Fresh Start",
         disqus_identifier="cache/posts/a-fresh-start.html",
         disqus_config = function () {
             this.language = "";
         };
-        function showComments() {
+        (function() {
             var dsq = document.createElement('script'); dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        }
-
-        (showComments());
-        
+        })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-    <a href="javascript:showComments()" class="dsq-brlink" rel="nofollow">Click to see the comments powered by <span class="logo-disqus">Disqus</span></a>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
         </section>
     
 </article>
-            <!--
-       <script>var disqus_shortname="huddledmasses";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
-    -->
+               <script>var disqus_shortname="huddledmasses";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
 
 
             </div>
