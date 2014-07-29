@@ -19,6 +19,7 @@ In the end, to try switching to a static site generator instead of a server-side
 
 I also decided that I will not restore the database backup and deal with cleaning all the downloads that have accumulated in the last ... almost 20 years of blogging (isn't that crazy?).  Instead,  I will start over. I can still restore individual articles from my old blog by hand (at least the ones that people really are still looking for), and that will give me the chance to update the content and to convert them to markdown (yeah, I think textile lost that battle).
  
-Please :doc:`let me know <missing-content>`_ when you hit a missing page that you want back, and I'll move that up my priority list.
+Please `let me know`_ when you hit a missing page that you want back, and I'll move that up my priority list.
 
 .. _StaticGen: http://www.staticgen.com/
+.. _let me know: /missing-content/
