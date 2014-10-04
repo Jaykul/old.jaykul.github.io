@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Joel \"Jaykul\" Bennett"  # (translatable)
 BLOG_TITLE = "Huddled Masses"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://blog.HuddledMasses.org/"
+SITE_URL = "http://HuddledMasses.org/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://HuddledMasses.org/"

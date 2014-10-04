@@ -1,0 +1,1132 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"All",
+				"AllowedCommands"
+			],
+			[
+				"user",
+				"UserInfo"
+			],
+			[
+				"p",
+				"Padding"
+			],
+			[
+				"true",
+				"True"
+			],
+			[
+				"Me",
+				"Message"
+			],
+			[
+				"G",
+				"GUID"
+			],
+			[
+				"POwer",
+				"PowerBotUserRoles"
+			],
+			[
+				"Get-",
+				"Get-Command"
+			],
+			[
+				"Value",
+				"ValueFromPipeline"
+			],
+			[
+				"Mo",
+				"module"
+			],
+			[
+				"COmma",
+				"Command"
+			],
+			[
+				"Allowe",
+				"AllowedCommand"
+			],
+			[
+				"Writ",
+				"Write-Host"
+			],
+			[
+				"Write-",
+				"Write-Host"
+			],
+			[
+				"au",
+				"authentication"
+			],
+			[
+				"not",
+				"notcontains"
+			],
+			[
+				"Nic",
+				"nicknames"
+			],
+			[
+				"U",
+				"UserList"
+			],
+			[
+				"E",
+				"EventArgs"
+			],
+			[
+				"Ni",
+				"Nick"
+			],
+			[
+				"A",
+				"ActiveUsers"
+			],
+			[
+				"Wri",
+				"Write-Host"
+			],
+			[
+				"Data",
+				"DataDir"
+			],
+			[
+				"N",
+				"Nick"
+			],
+			[
+				"Pr",
+				"ProgramData"
+			],
+			[
+				"Bot",
+				"BotCommands"
+			],
+			[
+				"User",
+				"UserTracking"
+			],
+			[
+				"Hook",
+				"HookModule"
+			],
+			[
+				"Hoo",
+				"HookModule"
+			],
+			[
+				"Fore",
+				"Foreground"
+			],
+			[
+				"Require",
+				"RequiredModules"
+			],
+			[
+				"Re",
+				"RequiredModules"
+			],
+			[
+				"Impor",
+				"Importing"
+			],
+			[
+				"Requi",
+				"RequiredModules"
+			],
+			[
+				"FOr",
+				"Force"
+			],
+			[
+				"S",
+				"Switch"
+			],
+			[
+				"Event",
+				"EventName"
+			],
+			[
+				"Start",
+				"Start-Sleep"
+			],
+			[
+				"ac",
+				"Account"
+			],
+			[
+				"Host",
+				"HostMask"
+			],
+			[
+				"Acc",
+				"Account"
+			],
+			[
+				"Remo",
+				"Remove-Module"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"Nick",
+				"NickServ"
+			],
+			[
+				"else",
+				"elseif"
+			],
+			[
+				"name",
+				"Name"
+			],
+			[
+				"Conta",
+				"ContainsKey"
+			],
+			[
+				"Hel",
+				"HelpText"
+			],
+			[
+				"I",
+				"Indexes"
+			],
+			[
+				"Choic",
+				"ChoiceDescriptions"
+			],
+			[
+				"Sorted",
+				"SortedObjects"
+			],
+			[
+				"Ch",
+				"Choice"
+			],
+			[
+				"fore",
+				"ForEach"
+			],
+			[
+				"Inptu",
+				"InputObject"
+			],
+			[
+				"CHo",
+				"ChoiceDescriptions"
+			],
+			[
+				"Choi",
+				"ChoiceDescriptions"
+			],
+			[
+				"La",
+				"Label"
+			],
+			[
+				"cho",
+				"choice"
+			],
+			[
+				"Valu",
+				"ValueFromPipelineByPropertyName"
+			],
+			[
+				"Input",
+				"InputObject"
+			],
+			[
+				"Inpu",
+				"InputObject"
+			],
+			[
+				"Cho",
+				"Choices"
+			],
+			[
+				"Write",
+				"Write-Host"
+			],
+			[
+				"Des",
+				"Description"
+			],
+			[
+				"Invok",
+				"Invoke-Rick"
+			],
+			[
+				"Is",
+				"IsSelected"
+			],
+			[
+				"match",
+				"matches"
+			],
+			[
+				"PS",
+				"PSCommandPath"
+			],
+			[
+				"Scrip",
+				"ScriptRoot"
+			],
+			[
+				"Script",
+				"ScriptRoot"
+			],
+			[
+				"Err",
+				"ErrorAction"
+			],
+			[
+				"PSC",
+				"PSCmdlet"
+			],
+			[
+				"Scr",
+				"ScriptBlock"
+			],
+			[
+				"Convert",
+				"ConvertFrom-Metadata"
+			],
+			[
+				"ab",
+				"absolute_url"
+			],
+			[
+				"Select",
+				"Select-Object"
+			],
+			[
+				"dec",
+				"description"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"Defaul",
+				"DefaultParameterSetName"
+			],
+			[
+				"Param",
+				"ParameterSetName"
+			],
+			[
+				"ex",
+				"Expires"
+			],
+			[
+				"Pro",
+				"property"
+			],
+			[
+				"Para",
+				"ParameterSetName"
+			],
+			[
+				"Out",
+				"Out-String"
+			],
+			[
+				"H",
+				"HttpMethod"
+			],
+			[
+				"Inv",
+				"Invoke-ChuckNorris"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"Ma",
+				"MathEvaluator"
+			],
+			[
+				"M",
+				"Message"
+			],
+			[
+				"War",
+				"warnings"
+			],
+			[
+				"Fun",
+				"Function"
+			],
+			[
+				"commands",
+				"PowerBotCommands"
+			],
+			[
+				"Cmdlet",
+				"CmdletBinding"
+			],
+			[
+				"host",
+				"hostmask"
+			],
+			[
+				"nick",
+				"nickname"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Presen",
+				"Presentation"
+			],
+			[
+				"Defa",
+				"DefaultToken"
+			],
+			[
+				"Wr",
+				"Write-Host"
+			],
+			[
+				"As",
+				"AstFoldingQueue"
+			],
+			[
+				"ref",
+				"refold"
+			],
+			[
+				"web",
+				"WebResponse"
+			],
+			[
+				"Stat",
+				"StatusDescription"
+			],
+			[
+				"GetResponse",
+				"GetResponseStream"
+			],
+			[
+				"Module",
+				"ModuleVersion"
+			],
+			[
+				"IN",
+				"InputObject"
+			],
+			[
+				"Wrt",
+				"Write-Verbose"
+			],
+			[
+				"Sc",
+				"ScriptRoot"
+			],
+			[
+				"My",
+				"MyCommand"
+			],
+			[
+				"Repo",
+				"Repositories"
+			],
+			[
+				"Wi",
+				"Width"
+			],
+			[
+				"Fiond",
+				"FindModule"
+			],
+			[
+				"Ba",
+				"BaseName"
+			],
+			[
+				"Dest",
+				"Destination"
+			],
+			[
+				"GetF",
+				"GetFileNameWithoutExtension"
+			],
+			[
+				"Li",
+				"LicenseUri"
+			],
+			[
+				"Pack",
+				"PackageExt"
+			],
+			[
+				"Packa",
+				"PackagePath"
+			],
+			[
+				"Mod",
+				"ModuleFolder"
+			],
+			[
+				"Error",
+				"ErrorAction"
+			],
+			[
+				"Zip",
+				"ZipFolder"
+			],
+			[
+				"Modu",
+				"Module"
+			],
+			[
+				"Modul",
+				"ModuleName"
+			],
+			[
+				"Asser",
+				"Assert-That"
+			],
+			[
+				"Remove",
+				"Remove-Mock"
+			],
+			[
+				"__",
+				"__mocks__"
+			],
+			[
+				"__mo",
+				"__mocks__"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "posts/Configuration-1.draft",
+			"settings":
+			{
+				"buffer_size": 12835,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/ConEmu.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"rst",
+				"Set Syntax: reStructuredText"
+			],
+			[
+				"rest",
+				"Set Syntax: reStructuredText"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pos",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"po",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"powe",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"posh",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"in p",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mar	",
+				"Set Syntax: Markdown"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"xik",
+				"Create Xiki Buffer"
+			],
+			[
+				"cre",
+				"Create Xiki Buffer"
+			],
+			[
+				"pa r",
+				"Package Control: Remove Package"
+			],
+			[
+				"p in p",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"xi",
+				"Set Syntax: Xiki"
+			],
+			[
+				"in pag",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 321.0,
+		"history":
+		[
+			"xiki",
+			"python -v",
+			"about",
+			"?",
+			"man",
+			"?",
+			"help",
+			"version",
+			"-v",
+			"class JsonToPlistCommand(sublime_plugin.WindowCommand):",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Joel/Projects/HuddledMasses.org",
+		"/C/Users/Joel/Projects/HuddledMasses.org/posts"
+	],
+	"file_history":
+	[
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/sidebar.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/base-jinja/templates/comments_helper_disqus.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/posts/about-huddled-masses.rst",
+		"/C/Users/Joel/Projects/HuddledMasses.org/posts/missing-content.rst",
+		"/C/Users/Joel/Projects/HuddledMasses.org/posts/validating-self-signed-certificates-from-net-and-powershell.rst",
+		"/C/Users/Joel/Projects/SublimePowerShell/LICENSE.txt",
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/SublimePowerShell/LICENSE.txt",
+		"/C/Users/Joel/Projects/HuddledMasses.org/posts/a-fresh-start.rst",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/post.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/bootstrap-jinja/parent",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/post_list_directive.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/.gitignore",
+		"/C/Users/Joel/Projects/HuddledMasses.org/stories/missing-content.rst",
+		"/D/Users/Joel/Downloads/.ptmp390249/README.txt",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/assets/css/theme.css",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/base-jinja/templates/listing.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/base.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/files/CNAME",
+		"/C/Users/Joel/Projects/HuddledMasses.org/conf.py",
+		"/C/Windows/System32/WindowsPowerShell/v1.0/Modules/PowerShellGet/SourceTypes/PSGallery/PSGallery.psm1",
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/C/Windows/System32/WindowsPowerShell/v1.0/Modules/PowerShellGet/PSGet.psm1",
+		"/C/Users/Joel/Projects/HuddledMasses.org/pages/missing-content.rst",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/base-jinja/engine",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/base-jinja/templates/base.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/assets/css/bootstrap.css",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/assets/css/bootstrap.min.css",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/assets/bootstrap.css",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/assets/bootstrap.min.css",
+		"/C/Users/Joel/Projects/HuddledMasses.org/CNAME",
+		"/D/Python27/Lib/site-packages/webassets/cache.py",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/index.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org_bloggo/_posts/001 - The New Huddled Masses.markdown",
+		"/C/Users/Joel/Projects/HuddledMasses.org_bloggo/_posts/000 - About Huddled Masses.markdown",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/base_helper.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/templates/post_header.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/bootstrap3-jinja/templates/base.tmpl",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/darkly-jinja/engine",
+		"/C/Users/Joel/Projects/HuddledMasses.org/themes/bootstrap3-jinja/engine",
+		"/C/Users/Joel/Projects/Modules/PowerBot/PowerBot.psd1",
+		"/C/Users/Joel/Projects/Modules/PoshCode/Packaging.psm1",
+		"//SURFACE/Users/Joel/Projects/Modules/PoshCode/Metadata.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Google/Google.psd1",
+		"/C/Users/Joel/Projects/Modules/PoshCode/PoshCode.nuspec",
+		"/C/Users/Joel/Projects/Modules/PoshCode/PoshCode.packageInfo",
+		"/D/SkyDrive/WindowsPowerShell/Scripts/Get-PerformanceHistory.ps1",
+		"/C/Users/Joel/Projects/Modules/PoshCode/Installation.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PSaint/ExtensionMethods.ps1xml",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PSaint/PSaint.psm1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/PowerBot.psm1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/BotCommands/BotCommands.psm1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/UpdateCommands.ps1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/ResolveAlias/ResolveAlias.psm1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/UserTracking/UserTracking.psd1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/UserTracking/UserTracking.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/CreditTracking/CreditTracking.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/CreditTracking/CreditTracking.psd1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/README.md",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/BetterCredentials/BetterCredentials.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/Strings/Strings.psd1",
+		"/C/Users/Joel/Projects/Modules/PoshCode/Scripts.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/FAQ/FAQ.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/FAQ/FAQ.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Example/Example.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Example/Example.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Autoload/Autoload.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Strings/Strings.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Pscx/Pscx.UserPreferences.ps1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/BotHooks/BotHooks.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Reflection/Reflection.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PoshOrders/AmazonOrders.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/ResolveAlias/ResolveAlias.psm1",
+		"/C/Users/Joel/Projects/Modules/PoshCode - 10-25/Releases/Reflection.psd1",
+		"/D/SkyDrive/WindowsPowerShell/TestData/Ruski.txt",
+		"/D/SkyDrive/WindowsPowerShell/TestData/English.txt",
+		"/C/Users/Joel/Projects/Modules/ShowUI/CommonControls/Get-Input.ps1",
+		"/C/Windows/System32/WindowsPowerShell/v1.0/PowerShellCore.format.ps1xml",
+		"/C/Windows/System32/WindowsPowerShell/v1.0/DotNetTypes.format.ps1xml",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PoshNet/PoshNet.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/Google/Google.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Dependency/4.1/Dependency/Dependency.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Dependency/Dependency.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Dependency/Dependency.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Dependency/5.0/Dependency/Dependency.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Credit/SQLiteCredit.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Credit/SQLiteCredit.psm1",
+		"/C/Users/Joel/Projects/Modules/PowerBot/.gitignore",
+		"/C/Users/Joel/Projects/Modules/PowerBot/botdata.sqlite",
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PowerBot/PowerBot.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/PowerBot/PowerBot.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Profile.ps1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Autoload/Autoload.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/WASP/WASP.packageInfo",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/WASP/WASP.nuspec",
+		"/D/SkyDrive/WindowsPowerShell/Modules/HttpRest/HttpRest.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/HttpRest/HttpRest.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/WASP/Wasp.psd1",
+		"/C/Users/Joel/Projects/Modules/PoshCode/Releases/PoshCode.xml",
+		"/C/Users/Joel/Projects/Modules/ShowUI/Get-ReferencedCommand.ps1",
+		"/D/Users/Joel/Downloads/ReleaseNotes.txt",
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Reflection/reflection.packageInfo",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Reflection/Reflection.nuspec",
+		"/C/Users/Joel/Documents/WindowsPowerShell/TestModules/Reflection/Reflection.psd1",
+		"/C/Users/Joel/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/K/autorun.inf",
+		"/C/Users/Joel/Projects/Modules/Astley/tools/chocolateyinstall.ps1",
+		"/C/Users/Joel/Projects/Modules/Astley/Astley.psm1",
+		"/C/Users/Joel/Projects/Modules/Astley/Astley.psd1",
+		"/C/Users/Joel/Projects/Modules/Astley/Astley.nuspec",
+		"/C/Users/Joel/Projects/Modules/Astley/Astley.packageInfo",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/Autoload/autoload.nuspec",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Configuration/Configuration.psm1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/WASP/Wasp.nuspec",
+		"/C/Users/Joel/Projects/Modules/PSAINT/PSaint.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/Reflection/Reflection.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Reflection/Reflection.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/WASP/Wasp.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/WASP/Wasp.packageInfo",
+		"/C/Users/Joel/Projects/Modules/PoshCode/New-InstallScript.ps1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/FAQ/FAQ.psm1",
+		"/D/SkyDrive/WindowsPowerShell/Scripts/Read-Atom.ps1",
+		"/C/Users/Joel/.gitconfig",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/WASP/Wasp.psd1",
+		"/C/Users/Joel/Documents/WindowsPowerShell/Modules/Autoload/Autoload.psd1",
+		"/D/SkyDrive/WindowsPowerShell/Scripts/ConvertTo-Hashtable.ps1",
+		"/D/SkyDrive/WindowsPowerShell/Modules/Autoload/Autoload.packageInfo"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Joel\\Projects\\HuddledMasses.org\\themes",
+			"C:\\Users\\Joel\\Projects\\Modules\\PowerBot",
+			"C:\\Users\\Joel\\Projects\\Modules",
+			"D:\\SkyDrive\\WindowsPowerShell",
+			"C:\\Users\\Joel\\Projects\\Modules\\PowerBot,<open files>",
+			"C:\\Users\\Joel\\Projects\\Modules\\PowerBot",
+			"C:\\Users\\Joel\\Projects\\Modules,,C:\\Users\\Joel\\Documents\\WindowsPowerShell",
+			"D:\\Users\\Joel\\Sites\\PoshCode\\SabreDAV",
+			"D:\\SkyDrive\\WindowsPowerShell\\Modules\\PoshCode",
+			"C:\\Users\\Joel\\Projects\\gitpaste",
+			"C:\\Users\\Joel\\Projects\\Modules\\PoshCode",
+			"C:\\Users\\Joel\\Documents\\WindowsPowerShell\\Modules\\Pester",
+			"C:\\Users\\Joel\\Projects\\Modules\\PoshCode",
+			"\\\\Entertainer\\Users\\Joel\\Documents\\WindowsPowerShell\\Modules",
+			"C:\\Users\\Joel\\Projects\\Modules\\PoshCode",
+			"C:\\Users\\Joel\\Documents\\WindowsPowerShell\\Modules\\PoshCode",
+			"C:\\Users\\Joel\\Projects\\Modules\\PoshCode,<open files>",
+			"C:\\Users\\Joel\\Projects\\Modules\\PoshCode"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SublimePowerShell/Support/PowershellSyntax.tmLanguage",
+			"Get-PSGetExtModule",
+			"content_footer",
+			"#3498db",
+			"section",
+			"crumbs",
+			"sidebar",
+			"html_footer",
+			"body_end",
+			"content_footer",
+			"sidebar.tmpl",
+			"stories",
+			"line-block",
+			"comment_link",
+			"Comments",
+			"u-url",
+			"content",
+			"\\ba\\b.*\\{",
+			"\\ba\\b.*{",
+			"inverse",
+			"navbar-",
+			"body",
+			"]:",
+			"\"",
+			"Leave-Channel",
+			"Join-Channel",
+			"Update-Comm",
+			"Get-Command",
+			"Format-Csv",
+			"Get-Role",
+			"your choice",
+			"process",
+			"Name",
+			"AST",
+			"FailMessage",
+			"ReleaseNotes",
+			"Test-WebUri",
+			"NDSPackageRepo",
+			"PSGallerySourceUri",
+			"Wildcard",
+			"RolePermissions",
+			"Update",
+			"ReAuthenticate",
+			"Reauthenticate",
+			"ReAuthenticate",
+			"Reauthenticate",
+			"ReAuthenticate",
+			"SQLite",
+			"SQLitePSProvider",
+			"Get-AccountRole",
+			"PendingUsers",
+			"ActiveUsers",
+			"Get-PowerBotRole",
+			"Get-Command",
+			"PowerBotUserRoles",
+			"UserTracking",
+			"Mount-SQLite",
+			"PowerBotScriptRoot",
+			"HookModule",
+			"Users",
+			"Update",
+			"$_",
+			"BotOwner",
+			"Channels",
+			"OwnerModules",
+			"AdminModules",
+			"CommandModules",
+			"BotAdmin",
+			"OwnerModules",
+			"PowerBotCommands",
+			"HookModules",
+			"Password",
+			"Get-Setting",
+			"AdminModules",
+			"Password",
+			"NewSettings.",
+			"PowerBotIrcClientIsHooked",
+			"Get-Command",
+			"${_}*",
+			"$($_.Name)*",
+			"Caption",
+			"Message",
+			"]\n",
+			"Message",
+			"Alias",
+			"\\.FindAll",
+			"Invoke",
+			"Set-UIFocus",
+			"PackageManifestUri",
+			"poshcode.package+zip",
+			"psmx",
+			"        [",
+			"($",
+			"Get-NuspecContent",
+			"        $",
+			"$",
+			"$ModuleInfo",
+			"ModuleInfo",
+			"2",
+			"Module",
+			"\\s(\\d+)",
+			"background",
+			" ",
+			"WriteError",
+			"InputObject",
+			"scriptroots",
+			"ExecutionContext",
+			"Metadata",
+			"metadata",
+			"Metadata",
+			"metadata",
+			"Metadata",
+			"ConvertTo-StringData",
+			"allowedcommands",
+			"ValidVariables",
+			"ValidCommands",
+			"$p",
+			"RibbonWindow",
+			"th",
+			"file",
+			"\\",
+			"PowerBotScriptRoot",
+			"Process($_)",
+			"\n            ",
+			"            $",
+			"\n            ",
+			"GetType().Name",
+			"SplitLength"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"SublimePowerShell/Support/PowershellSyntax.tmLanguage",
+			"$EventArgs",
+			"Hooks",
+			"PackageInfoUri",
+			"\\n\\1",
+			"\\\\",
+			"GetType().FullName",
+			"$script:",
+			" ",
+			"AstFoldingStack",
+			"rr2",
+			"PoshCodeModuleRoot",
+			"Out-String",
+			"Out-Strin",
+			"Name",
+			"~",
+			".Version",
+			".Name",
+			"Read-Module",
+			"Import-Metadata",
+			"Compress-Module",
+			"Install-Module",
+			"Get-PackageManifest",
+			"ModuleManifestExtension"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "posts/Configuration-1.draft",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 12835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4060,
+								4060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "HMO.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 696.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
