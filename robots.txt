@@ -1,2 +1,2 @@
-Sitemap: http://blog.HuddledMasses.org/sitemapindex.xml
+Sitemap: http://HuddledMasses.org/sitemapindex.xml
 
