@@ -6,54 +6,54 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://HuddledMasses.org/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/2014/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/blog/a-fresh-start/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/a-fresh-start/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/blog/about-huddled-masses/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/about-huddled-masses/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/archive.html</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/powershell/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/rest/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/powershell/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/site-news/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/rest/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/ssl/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/site-news/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/webrequest/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/ssl/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/personal/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/categories/webrequest/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/tags/development/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/missing-content/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/blog/validating-self-signed-certificates-properly-from-powershell/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
  <url>
-  <loc>http://HuddledMasses.org/validating-self-signed-certificates-properly-from-powershell/</loc>
-  <lastmod>2014-10-03</lastmod>
+  <loc>http://HuddledMasses.org/blog/developer-brain/</loc>
+  <lastmod>2014-10-27</lastmod>
  </url>
 </urlset>

@@ -5,27 +5,7 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://HuddledMasses.org/categories/powershell.xml</loc>
-  <lastmod>2014-10-03</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://HuddledMasses.org/categories/rest.xml</loc>
-  <lastmod>2014-10-03</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://HuddledMasses.org/categories/site-news.xml</loc>
-  <lastmod>2014-10-03</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://HuddledMasses.org/categories/ssl.xml</loc>
-  <lastmod>2014-10-03</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://HuddledMasses.org/categories/webrequest.xml</loc>
-  <lastmod>2014-10-03</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://HuddledMasses.org/rss.xml</loc>
+  <loc>http://HuddledMasses.org/blog/feed.xml</loc>
   <lastmod>2014-10-03</lastmod>
  </sitemap>
  <sitemap>
