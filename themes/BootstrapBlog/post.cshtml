@@ -1,0 +1,14 @@
+﻿@using PowerSite
+@using PowerSite.DataModel
+@inherits  RazorEngine.Templating.TemplateBase<Document>
+@{
+	Layout = "BlogLayout.cshtml";
+	ViewBag.Author = Model.Author.Name;
+	ViewBag.Title = Model.Title + " - " + Site.Current.Title;
+}
+
+<div class="blog-post">
+	<h2 class="blog-post-title">@Model.Title</h2>
+	<p class="blog-post-meta">@Model.Date by <a href="#">@Model.Author.Name</a></p>
+	@Raw(Model.RenderedContent)
+</div>

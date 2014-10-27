@@ -1,8 +1,2 @@
-*.pyc
-output/
-cache/
-.doit.db
-themes/base
-themes/base-jinja/
-themes/bootstrap-jinja/
-themes/bootstrap3-jinja/
+Output
+Cache
