@@ -1,4 +1,5 @@
 title: How the developers brain works
+tags: Development, Personal
 date: 2014-10-27 05:47:43 -04:00
 
 1. I need to finish [the PoshCode module][1], so I start working on that ...
