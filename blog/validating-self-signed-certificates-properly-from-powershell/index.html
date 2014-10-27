@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="You can do more than breathe for free...">
+	<meta name="author" content="Joel &quot;Jaykul&quot; Bennett">
+	<title>Validating Self-Signed Certificates From .Net and PowerShell - Huddled Masses</title>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<style>
+		body {
+			padding-top: 50px;
+			padding-bottom: 20px;
+		}
+	</style>
+	<link rel="stylesheet" href="/css/blog.css">
+	<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+	<script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	
+</head>
+<body>
+	<!--[if lt IE 7]>
+		 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Huddled Masses</a>
+			</div>
+			<div class="navbar-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">Home</a></li>
+					<li class="active"><a href="/blog">Blog</a></li>
+					<li><a href="#">About Me</a></li>
+				</ul>
+			</div><!--/.navbar-collapse -->
+		</div>
+	</div>
+	<div class="container">
+		<div class="blog-header">
+			<h1 class="blog-title">Huddled Masses</h1>
+			<p class="lead blog-description">You can do more than breathe for free...</p>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 blog-main">
+				
+
+<div class="blog-post">
+	<h2 class="blog-post-title">Validating Self-Signed Certificates From .Net and PowerShell</h2>
+	<p class="blog-post-meta">7/28/2014 1:30:03 AM by <a href="#">Joel &quot;Jaykul&quot; Bennett</a></p>
+	<p>In this article I'm going to present a module that helps you deal with one of the common problems for Windows PowerShell users (and even .Net developers) who are trying to interact from command-line applications with web interfaces (especially those that are hosted internally): Self-signed certificates, and how to ignore the errors that come when you try to validate them.  If you don't care about why I wrote it the way I wrote it, you can just <a href="https://github.com/Jaykul/Tunable-SSL-Validator">check out the module on GitHub</a> or install it with PoshCode or PowerShellGet by running:</p>
+
+<pre><code>Install-Module TunableSSLValidator
+</code></pre>
+
+<p>The module includes commands for importing certificates from files, loading them from the web server response of an http url, importing them to the Windows certificate store (to be trusted), and temporarily trusting them for a single PowerShell session.  It also includes proxy function command wrappers for <code>Invoke-WebRequest</code> and <code>Invoke-RestMethod</code> to add an <code>-Insecure</code> switch which allows single queries to ignore invalid SSL certificates.</p>
+
+<p><strong>One caveat</strong> is that the way that it works is based on implementing the ServerCertificateValidationCallback, and the <em>results of that callback are cached</em> by your system, so in testing I've found that if you allow a certain URL, that URL is going to be valid for several seconds until the cache expires, so if you make several repeated calls to the same URL, and only the first one is flagged <code>-insecure</code>, they <em>may</em> all succeed. I can't remember what the documentation says about the timing or flushing the cache right now, but although it's obviously not a security issue, I am going to look for a way to flush that if it's possible.</p>
+
+<h1>Some Background</h1>
+
+<p>The root of the problem is that the web request classes in .Net automatically validate SSL certificates, and until version 4.5 there was not an easy way to ignore SSL errors or skip the validation on an individual request. That means that when you try to get a web page from a server like the <a href="https://csh.rit.edu">computer science house at RIT</a>, you get an error like:</p>
+
+<p>The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.</p>
+
+<p>For most linux command line apps like <em>curl</em> you have a parameter like <code>--insecure</code> which allows you to just ignore invalid SSL certificates for a single web request, but for .Net and PowerShell there is no such a flag, resulting in <a href="http://stackoverflow.com/search?q=self-signed+SSL+certificates+[csharp]+OR+[powershell]">a lot of questions on StackOverflow</a> and other such websites about the best way to deal with them.</p>
+
+<p>Beginning with version 3.0, PowerShell ships with <code>Invoke-WebRequest</code> and <code>Invoke-RestMethod</code> cmdlets, but these cmdlets don't have an <code>-insecure</code> switch, and so you can't use them unless you disable validation.  The module I'm going to present here will fix that, and I want to show you how I did it so you can do the same thing for other similar cmdlets (like the <code>Export-ODataEndpointProxy</code> cmdlet that showed up in the July preview of PowerShell 5, and the cmdlets it generates).</p>
+
+<h1>Removing SSL Validation</h1>
+
+<p>There are a couple of common approaches to this problem in PowerShell (and .Net too, actually). The first is to just add the SSL certificate to your trusted store. The second is to set the ServicePointManager's ServerCertificateValidationCallback to a function that just returns TRUE -- thus ignoring <strong>all</strong> certificate errors.</p>
+
+<p>That first solution is probably the right one, and I actually wrote a couple of function in this module to make it easier (one to fetch a cert from a web server, and another to add a certificate to your trusted store).  Of course, it would be even better to set up an actual trusted root certificate authority (for instance, using Active Directory), but the bottom line is that either of these require permanently altering the trust of the computer in order to make a web request. The problem is that if you're writing scripts, cmdlets or .Net applications that may be used by others, it basically amounts to telling your potential users they have to deal with the problem themselves (which, for the record, is exactly what Microsoft did when they wrote their web cmdlets for PowerShell 3).</p>
+
+<p>So if you want to proactively avoid SSL errors, you have to set the ServerCertificateValidationCallback. For certain situations, it's enough to just do this in PowerShell:</p>
+
+<pre><code>$url = "https://csh.rit.edu"
+$web = New-Object Net.WebClient
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = { $true } 
+$output = $web.DownloadString($url)
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = $null
+</code></pre>
+
+<p>Note, that I set the ServerCertificateValidationCallback back to <code>$null</code> when I was done -- this restores normal validation, so I have, in effect, only disabled the validation for that one call (since PowerShell isn't generally multi-threaded, I don't normally have to worry about other threads being affeected). However, setting the ServerCertificateValidationCallback to a scriptblock won't work for an asynchronous callback (one that happens on a task thread), because the other thread won't have a runspace to execute the script on.  So, if you try to use the same technique with Invoke-WebRequest or Invoke-RestMethod instead of calling the .Net <code>WebClient</code> methods directly, you'll just get a different error:</p>
+
+<pre><code>The underlying connection was closed: An unexpected error occurred on a send.
+</code></pre>
+
+<p>If you dig in a little bit, you'll find that the InnerException of the error was:</p>
+
+<pre><code>There is no Runspace available to run scripts in this thread. 
+You can provide one in the DefaultRunspace property
+of the System.Management.Automation.Runspaces.Runspace type. 
+The script block you attempted to invoke was:  $true
+</code></pre>
+
+<p>Obviously this approach doesn't work at that point, and the Invoke-WebRequest cmdlet is not the only place which will call web APIs on background threads, so to make those cmdlets and APIs work, we need to write it in C# (and do so in a way that's flexible enough that we can control it from PowerShell). </p>
+
+<p>Additionally, simply returning true will disable all validation, and that's not really a safe practice -- it's certainly not what you want to do all of the time. If you're on .Net 4.5 or later, you can set the callback on the a raw HttpWebRequest and only affect that one request, but obviously that only works if you write your code at that low level, don't use the PowerShell cmdlets, and are on the latest version of .Net -- plus, you still have to write the logic that determines when that should happen.  </p>
+
+<p>The bottom line is that what we probably want is something like an <code>insecure</code> switch on the PowerShell cmdlets, so that we can make a specific request be insecure, and then when we were writing functions, we could just pass that parameter up to our functions.</p>
+
+<h1>Custom SSL Validator</h1>
+
+<p>There are several example validators on the <a href="http://www.mono-project.com/UsingTrustedRootsRespectfully">Using Trusted Roots Respectfully</a> page from mono project, but I'm going to try to blend a few of those validators to give us the option of tuning the SSL validation to our specific needs.</p>
+
+<p>The point is that I don't want to weaken <em>all</em> validation, I just want to trust a specific cert for a specific domain, or perhaps just ignore problems on one domain, or make one specific request regardless of whether the SSL certificate is valid or not.</p>
+
+<p>Let's look at the callback and see the information we have to work with:</p>
+
+<pre><code>bool TunableValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+</code></pre>
+
+<ol>
+<li>The sender is usually going to be the WebRequest that was calling an https domain that failed validation.  </li>
+<li>The certificate, of course, is the one the actually failed ...</li>
+<li>The chain is the series of certificates that issued the original one, back to the root certificate authority, along with the trust information about them.</li>
+<li>The sslPolicyErrors tells us what went wrong: Was there no cert? Was the cert for the wrong domain? Was the root CA not trusted?</li>
+</ol>
+
+<p>So, what I've written is first a check for the three main SSL errors, and a way to pre-emptively ignore them once, or post-humously trust a certificate that failed the first time, as well as some better error messages (which have to be output using Console.Error.WriteLine rather than Write-Error because they might be running on a background thread).</p>
+
+<p>For now, that's enough of an explanation, I've posted the <a href="https://github.com/Jaykul/Tunable-SSL-Validator">tunable SSL validator code to github</a>, and this blog post as the ReadMe, where I'll update it with more details if need be.</p>
+</div>
+			</div><!--/blog-main-->
+			<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+				<div class="sidebar-module">
+					<h4>Joel Bennett</h4>
+					<p>Also known as "Jaykul" around the internet, I am a software engineer, a Microsoft MVP for PowerShell, and this is where I blog about PowerShell and software development, about technology, the web, and the world.</p>
+				</div>
+				<div class="sidebar-module well">
+					<h4>Tags</h4>
+					<ol class="list-inline">
+							<li><a href="/blog/tags/Development/">Development</a></li>
+							<li><a href="/blog/tags/Personal/">Personal</a></li>
+							<li><a href="/blog/tags/Site News/">Site News</a></li>
+							<li><a href="/blog/tags/PowerShell/">PowerShell</a></li>
+							<li><a href="/blog/tags/SSL/">SSL</a></li>
+							<li><a href="/blog/tags/REST/">REST</a></li>
+							<li><a href="/blog/tags/WebRequest/">WebRequest</a></li>
+					</ol>
+				</div>
+				<div class="sidebar-module well">
+					<div id="diigo_linkroll">
+						<script type="text/javascript" src="//www.diigo.com/roll2/linkrolls?v=4&username=jaykul&count=5&style=customize&icon=false&desc=1&l_type=0&t_color=3498db&t_fam=Lato,Helvetica Neue,Helvetica,Arial,sans-serif&t_size=14&t_bold=true&t_italic=false&t_underline=false&i_fam=Lato,Helvetica Neue,Helvetica,Arial,sans-serif&i_color=ffffff&i_size=12&i_bold=false&i_italic=false&i_underline=false&bg_color=00222222&bg_repeat=no-repeat&title=I%20diigo%20these%20links&tags=&bg_img="></script>
+					</div>
+				</div>
+				<div class="sidebar-module well">
+					<a class="twitter-timeline" href="https://twitter.com/Jaykul" height="700" data-widget-id="484816047145369600" data-chrome="transparent noscrollbar">Tweets by @Jaykul</a>
+					<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				</div>
+			</div><!-- /blog-sidebar -->
+
+		</div>
+
+		<hr>
+		<footer>
+			<p>&copy; Joel &quot;Jaykul&quot; Bennett 2014</p>
+		</footer>
+	</div> <!-- /container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+	<script src="/js/vendor/bootstrap.min.js"></script>
+	<script src="/js/main.js"></script>
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-52513307-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</body>
+</html>
