@@ -5,11 +5,11 @@
 		<link>http://HuddledMasses.org/blog/</link>
 		<description>You can do more than breathe for free...</description>
 		<language>en</language>
-		<lastbuilddate>Mon, 27 Oct 2014 23:45:26 GMT</lastbuilddate>
+		<lastbuilddate>Mon, 27 Oct 2014 23:56:10 GMT</lastbuilddate>
 		<generator>http://HuddledMasses.org/PowerSite</generator>
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<item>
-				<title>How the developers brain works</title>
+				<title>How the developer&#39;s brain works</title>
 				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
 				<guid ispermalink="true">http://HuddledMasses.org/blog/developer-brain/index.html</guid>
 				<description><![CDATA[<ol>
@@ -30,7 +30,13 @@
 <li>And two weeks later, I have a first draft version of <a href="https://github.com/Jaykul/PowerSite">PowerSite</a>, my very own <a href="https://github.com/Jaykul/PowerSite">static blog engine</a>, that works well enough to switch this blog over to it, and I can write that blog post...</li>
 </ol>
 
-<h2>But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.</h2>]]></description>
+<h2>But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.</h2>
+
+<h3>Oh, wait, what ever happened to that Configuration module? Did I finish that?</h3>
+
+<h4>Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!</h4>
+
+<p>True story. This might be why there are so few good managers with software development backgrounds ;)</p>]]></description>
 			</item>
 			<item>
 				<title>Validating Self-Signed Certificates From .Net and PowerShell</title>
