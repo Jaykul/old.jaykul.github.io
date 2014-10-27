@@ -1,7 +1,7 @@
 ## Converted from ReST
 title: About Huddled Masses
 date: 2014-07-21 01:02:18 -04:00
-tags: Site News
+tags: site-news
 description: What this site is about
 
 This is web site is dedicated to the musings of Joel Bennett (aka Jaykul) 

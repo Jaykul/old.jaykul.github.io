@@ -1,6 +1,6 @@
 ---
 date: 2014-07-28 01:30:03 -04:00
-tags: PowerShell, SSL, REST, WebRequest
+tags: powershell, ssl, rest, webrequest
 description: A PowerShell module to allow weakening or circumventing SSL validation on web queries.
 title: Validating Self-Signed Certificates From .Net and PowerShell
 ---

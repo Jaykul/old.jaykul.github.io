@@ -1,7 +1,7 @@
 ---
 title: A Fresh Start
 date: 2014-07-24 01:02:43 -04:00
-tags: Site News
+tags: site-news
 author: Joel Bennett (Jaykul) <Jaykul@HuddledMasses.org> http://HuddledMasses.org
 description: An explanation of why everything is missing
 ---

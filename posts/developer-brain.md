@@ -1,5 +1,5 @@
-title: How the developers brain works
-tags: Development, Personal
+title: How the developer's brain works
+tags: development, personal
 date: 2014-10-27 05:47:43 -04:00
 
 1. I need to finish [the PoshCode module][1], so I start working on that ...
@@ -19,6 +19,13 @@ date: 2014-10-27 05:47:43 -04:00
 15. And two weeks later, I have a first draft version of [PowerSite][6], my very own [static blog engine][6], that works well enough to switch this blog over to it, and I can write that blog post...
 
 ## But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.
+
+### Oh, wait, what ever happened to that Configuration module? Did I finish that?
+
+#### Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!
+
+True story. This might be why there are so few good managers with software development backgrounds ;)
+
 
 [1]: https://GitHub.com/PoshCode/PoshCode
 [2]: https://GitHub.com/PoshCode/Configuration

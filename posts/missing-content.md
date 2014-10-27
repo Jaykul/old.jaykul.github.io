@@ -1,6 +1,6 @@
 title: Missing Content
 date: 2014-07-22 12:02:18 -04:00
-tags: Site News
+tags: site-news, missing-content
 description: Where you should ask for updates and missing pages
 
 Since I've blown away all my old blog content, there are a lot of pages missing that were really useful. 
