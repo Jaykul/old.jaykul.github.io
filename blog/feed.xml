@@ -5,7 +5,7 @@
 		<link>http://HuddledMasses.org/blog/</link>
 		<description>You can do more than breathe for free...</description>
 		<language>en</language>
-		<lastbuilddate>Mon, 27 Oct 2014 23:56:10 GMT</lastbuilddate>
+		<lastbuilddate>Tue, 28 Oct 2014 00:01:27 GMT</lastbuilddate>
 		<generator>http://HuddledMasses.org/PowerSite</generator>
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<item>
@@ -32,11 +32,11 @@
 
 <h2>But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.</h2>
 
-<h3>Oh, wait, what ever happened to that Configuration module? Did I finish that?</h3>
+<h4>Oh, wait, what ever happened to that Configuration module? Did I finish that?</h4>
 
-<h4>Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!</h4>
+<h6>Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!</h6>
 
-<p>True story. This might be why there are so few good managers with software development backgrounds ;)</p>]]></description>
+<p>True story. This might be why God invented managers.</p>]]></description>
 			</item>
 			<item>
 				<title>Validating Self-Signed Certificates From .Net and PowerShell</title>
