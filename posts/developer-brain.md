@@ -20,11 +20,11 @@ date: 2014-10-27 05:47:43 -04:00
 
 ## But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.
 
-### Oh, wait, what ever happened to that Configuration module? Did I finish that?
+#### Oh, wait, what ever happened to that Configuration module? Did I finish that?
 
-#### Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!
+###### Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!
 
-True story. This might be why there are so few good managers with software development backgrounds ;)
+True story. This might be why God invented managers.
 
 
 [1]: https://GitHub.com/PoshCode/PoshCode
