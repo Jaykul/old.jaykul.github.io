@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Huddled Masses</title>
+		<link>http://HuddledMasses.org/blog/</link>
+		<description>You can do more than breathe for free...</description>
+		<language>en</language>
+		<lastbuilddate>Tue, 28 Oct 2014 07:06:46 GMT</lastbuilddate>
+		<generator>http://HuddledMasses.org/PowerSite</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+			<item>
+				<title>Missing Content</title>
+				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
+				<guid ispermalink="true">http://HuddledMasses.org/blog/missing-content/index.html</guid>
+				<description><![CDATA[<p>Since I've blown away all my old blog content, there are a lot of pages missing that were really useful. 
+I'm going to bring the best of them back, and I have plans to actually rewrite some of the older ones to update them 
+(part of the reason I let the old ones go is that some of them were so out-of-date that they might have been misleading).</p>
+
+<p>If there is one or more of my old articles in particular that you'd like to see come back, please post a comment below!</p>]]></description>
+			</item>
+	</channel>
+</rss>

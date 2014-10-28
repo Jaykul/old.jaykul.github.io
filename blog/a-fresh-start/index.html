@@ -46,6 +46,7 @@
 					<li><a href="/">Home</a></li>
 					<li class="active"><a href="/blog">Blog</a></li>
 					<li><a href="#">About Me</a></li>
+					<li><a href="/blog/feed.xml" style="padding: 11px 15px;"><img src="/images/feed.png" height="28" width="28" /></a></li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div>
@@ -60,9 +61,11 @@
 				
 
 <div class="blog-post">
-	<h2 class="blog-post-title">A Fresh Start</h2>
-	<p class="blog-post-meta">7/24/2014 1:02:43 AM by <a href="#">Joel Bennett</a></p>
-	<p>A few weeks ago, someone somehow injected a shell onto my WordPress powered blog site. They managed to get multiple hacking tools installed, delete files required for hosting, and who knows what else. Needless to say I was frustrated and upset. In fact, I was so frustrated that to get rid of it I just tore down the whole site. </p>
+    <h2 class="blog-post-title">A Fresh Start</h2>
+    <p class="blog-post-meta">
+        <span class="blog-post-time">2014-07-24 1:02</span> by <a class="blog-post-author" href="#">Joel Bennett</a>
+    </p>
+    <p>A few weeks ago, someone somehow injected a shell onto my WordPress powered blog site. They managed to get multiple hacking tools installed, delete files required for hosting, and who knows what else. Needless to say I was frustrated and upset. In fact, I was so frustrated that to get rid of it I just tore down the whole site. </p>
 
 <p>I apologize for all the hundreds of broken links that are pointed at my domain right now. I have a database backup, but I want to try a few other blogging tools out, and I am not sure I can trust the downloads or even images on the old site -- I don't want to restore all the posts <em>and then</em> find out the downloads are infected or the images have been replaced. Furthermore, when I stood up a new WordPress site, it did not perform well on my DreamHost server, and I started to wonder if I needed new hosting or new blogging tools.</p>
 
@@ -73,6 +76,12 @@
 <p>I also decided that I will not restore the database backup and deal with cleaning all the downloads that have accumulated in the last ... almost 20 years of blogging (isn't that crazy?).  Instead,  I will start over. I can still restore individual articles from my old blog by hand (at least the ones that people really are still looking for), and that will give me the chance to update the content and to convert them to markdown (yeah, I think textile lost that battle).</p>
 
 <p>Please <a href="/missing-content/">let me know</a> when you hit a missing page that you want back, and I'll move that up my priority list.</p>
+    <div class="panel-footer">
+        Tagged:
+        <ul class="list-inline label">
+                <li><a href="/blog/tags/site-news/">site-news</a></li>
+        </ul>
+    </div>
 </div>
 			</div><!--/blog-main-->
 			<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
@@ -82,15 +91,16 @@
 				</div>
 				<div class="sidebar-module well">
 					<h4>Tags</h4>
-					<ol class="list-inline">
-							<li><a href="/blog/tags/Development/">Development</a></li>
-							<li><a href="/blog/tags/Personal/">Personal</a></li>
-							<li><a href="/blog/tags/Site News/">Site News</a></li>
-							<li><a href="/blog/tags/PowerShell/">PowerShell</a></li>
-							<li><a href="/blog/tags/SSL/">SSL</a></li>
-							<li><a href="/blog/tags/REST/">REST</a></li>
-							<li><a href="/blog/tags/WebRequest/">WebRequest</a></li>
-					</ol>
+					<ul class="list-inline">
+							<li><a href="/blog/tags/development/">development</a></li>
+							<li><a href="/blog/tags/personal/">personal</a></li>
+							<li><a href="/blog/tags/powershell/">powershell</a></li>
+							<li><a href="/blog/tags/ssl/">ssl</a></li>
+							<li><a href="/blog/tags/rest/">rest</a></li>
+							<li><a href="/blog/tags/webrequest/">webrequest</a></li>
+							<li><a href="/blog/tags/site-news/">site-news</a></li>
+							<li><a href="/blog/tags/missing-content/">missing-content</a></li>
+					</ul>
 				</div>
 				<div class="sidebar-module well">
 					<div id="diigo_linkroll">

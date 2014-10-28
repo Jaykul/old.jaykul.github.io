@@ -46,6 +46,7 @@
 					<li><a href="/">Home</a></li>
 					<li class="active"><a href="/blog">Blog</a></li>
 					<li><a href="#">About Me</a></li>
+					<li><a href="feed.xml" style="padding: 11px 15px;"><img src="/images/feed.png" height="28" width="28" /></a></li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div>
@@ -59,34 +60,79 @@
 			<div class="col-sm-8 blog-main">
 				
 
-	<div class="blog-post">
-		<a href="/blog/about-huddled-masses/index.html"><h2 class="blog-post-title">About Huddled Masses</h2></a>
-		<p class="blog-post-meta">7/21/2014 by <a href="#">Joel &quot;Jaykul&quot; Bennett</a></p>
-		<p>This is web site is dedicated to the musings of Joel Bennett (aka Jaykul) 
-about technology, software, software development, the web, and the world.</p>
-	</div>
-	<div class="blog-post">
-		<a href="/blog/missing-content/index.html"><h2 class="blog-post-title">Missing Content</h2></a>
-		<p class="blog-post-meta">7/22/2014 by <a href="#">Joel &quot;Jaykul&quot; Bennett</a></p>
-		<p>Since I've blown away all my old blog content, there are a lot of pages missing that were really useful. 
+    <div class="blog-post">
+        <a href="/blog/developer-brain/index.html"><h2 class="blog-post-title">How the developer&#39;s brain works</h2></a>
+        <p class="blog-post-meta">
+            <span class="blog-post-time">2014-10-27 5:47</span> by <a class="blog-post-author" href="#">Joel &quot;Jaykul&quot; Bennett</a>
+        </p>
+        <div class="text-right">
+            Tagged:
+            <ul class="list-inline label">
+                    <li><a href="/blog/tags/development/">development</a></li>
+                    <li><a href="/blog/tags/personal/">personal</a></li>
+            </ul>
+        </div>
+        <p>True story. This might be why God invented managers.</p>
+    </div>
+    <div class="blog-post">
+        <a href="/blog/validating-self-signed-certificates-properly-from-powershell/index.html"><h2 class="blog-post-title">Validating Self-Signed Certificates From .Net and PowerShell</h2></a>
+        <p class="blog-post-meta">
+            <span class="blog-post-time">2014-07-28 1:30</span> by <a class="blog-post-author" href="#">Joel &quot;Jaykul&quot; Bennett</a>
+        </p>
+        <div class="text-right">
+            Tagged:
+            <ul class="list-inline label">
+                    <li><a href="/blog/tags/powershell/">powershell</a></li>
+                    <li><a href="/blog/tags/ssl/">ssl</a></li>
+                    <li><a href="/blog/tags/rest/">rest</a></li>
+                    <li><a href="/blog/tags/webrequest/">webrequest</a></li>
+            </ul>
+        </div>
+        <p>In this article I'm going to present a module that helps you deal with one of the common problems for Windows PowerShell users (and even .Net developers) who are trying to interact from command-line applications with web interfaces (especially those that are hosted internally): Self-signed certificates, and how to ignore the errors that come when you try to validate them.  If you don't care about why I wrote it the way I wrote it, you can just <a href="https://github.com/Jaykul/Tunable-SSL-Validator">check out the module on GitHub</a> or install it with PoshCode or PowerShellGet by running:</p>
+    </div>
+    <div class="blog-post">
+        <a href="/blog/a-fresh-start/index.html"><h2 class="blog-post-title">A Fresh Start</h2></a>
+        <p class="blog-post-meta">
+            <span class="blog-post-time">2014-07-24 1:02</span> by <a class="blog-post-author" href="#">Joel Bennett</a>
+        </p>
+        <div class="text-right">
+            Tagged:
+            <ul class="list-inline label">
+                    <li><a href="/blog/tags/site-news/">site-news</a></li>
+            </ul>
+        </div>
+        <p>A few weeks ago, someone somehow injected a shell onto my WordPress powered blog site. They managed to get multiple hacking tools installed, delete files required for hosting, and who knows what else. Needless to say I was frustrated and upset. In fact, I was so frustrated that to get rid of it I just tore down the whole site. </p>
+    </div>
+    <div class="blog-post">
+        <a href="/blog/missing-content/index.html"><h2 class="blog-post-title">Missing Content</h2></a>
+        <p class="blog-post-meta">
+            <span class="blog-post-time">2014-07-22 12:02</span> by <a class="blog-post-author" href="#">Joel &quot;Jaykul&quot; Bennett</a>
+        </p>
+        <div class="text-right">
+            Tagged:
+            <ul class="list-inline label">
+                    <li><a href="/blog/tags/site-news/">site-news</a></li>
+                    <li><a href="/blog/tags/missing-content/">missing-content</a></li>
+            </ul>
+        </div>
+        <p>Since I've blown away all my old blog content, there are a lot of pages missing that were really useful. 
 I'm going to bring the best of them back, and I have plans to actually rewrite some of the older ones to update them 
 (part of the reason I let the old ones go is that some of them were so out-of-date that they might have been misleading).</p>
-	</div>
-	<div class="blog-post">
-		<a href="/blog/developer-brain/index.html"><h2 class="blog-post-title">How the developer&#39;s brain works</h2></a>
-		<p class="blog-post-meta">10/27/2014 by <a href="#">Joel &quot;Jaykul&quot; Bennett</a></p>
-		<p>True story. This might be why God invented managers.</p>
-	</div>
-	<div class="blog-post">
-		<a href="/blog/validating-self-signed-certificates-properly-from-powershell/index.html"><h2 class="blog-post-title">Validating Self-Signed Certificates From .Net and PowerShell</h2></a>
-		<p class="blog-post-meta">7/28/2014 by <a href="#">Joel &quot;Jaykul&quot; Bennett</a></p>
-		<p>In this article I'm going to present a module that helps you deal with one of the common problems for Windows PowerShell users (and even .Net developers) who are trying to interact from command-line applications with web interfaces (especially those that are hosted internally): Self-signed certificates, and how to ignore the errors that come when you try to validate them.  If you don't care about why I wrote it the way I wrote it, you can just <a href="https://github.com/Jaykul/Tunable-SSL-Validator">check out the module on GitHub</a> or install it with PoshCode or PowerShellGet by running:</p>
-	</div>
-	<div class="blog-post">
-		<a href="/blog/a-fresh-start/index.html"><h2 class="blog-post-title">A Fresh Start</h2></a>
-		<p class="blog-post-meta">7/24/2014 by <a href="#">Joel Bennett</a></p>
-		<p>A few weeks ago, someone somehow injected a shell onto my WordPress powered blog site. They managed to get multiple hacking tools installed, delete files required for hosting, and who knows what else. Needless to say I was frustrated and upset. In fact, I was so frustrated that to get rid of it I just tore down the whole site. </p>
-	</div>
+    </div>
+    <div class="blog-post">
+        <a href="/blog/about-huddled-masses/index.html"><h2 class="blog-post-title">About Huddled Masses</h2></a>
+        <p class="blog-post-meta">
+            <span class="blog-post-time">2014-07-21 1:02</span> by <a class="blog-post-author" href="#">Joel &quot;Jaykul&quot; Bennett</a>
+        </p>
+        <div class="text-right">
+            Tagged:
+            <ul class="list-inline label">
+                    <li><a href="/blog/tags/site-news/">site-news</a></li>
+            </ul>
+        </div>
+        <p>This is web site is dedicated to the musings of Joel Bennett (aka Jaykul) 
+about technology, software, software development, the web, and the world.</p>
+    </div>
 
 			</div><!--/blog-main-->
 			<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
@@ -96,15 +142,16 @@ I'm going to bring the best of them back, and I have plans to actually rewrite s
 				</div>
 				<div class="sidebar-module well">
 					<h4>Tags</h4>
-					<ol class="list-inline">
-							<li><a href="/blog/tags/Development/">Development</a></li>
-							<li><a href="/blog/tags/Personal/">Personal</a></li>
-							<li><a href="/blog/tags/Site News/">Site News</a></li>
-							<li><a href="/blog/tags/PowerShell/">PowerShell</a></li>
-							<li><a href="/blog/tags/SSL/">SSL</a></li>
-							<li><a href="/blog/tags/REST/">REST</a></li>
-							<li><a href="/blog/tags/WebRequest/">WebRequest</a></li>
-					</ol>
+					<ul class="list-inline">
+							<li><a href="/blog/tags/development/">development</a></li>
+							<li><a href="/blog/tags/personal/">personal</a></li>
+							<li><a href="/blog/tags/powershell/">powershell</a></li>
+							<li><a href="/blog/tags/ssl/">ssl</a></li>
+							<li><a href="/blog/tags/rest/">rest</a></li>
+							<li><a href="/blog/tags/webrequest/">webrequest</a></li>
+							<li><a href="/blog/tags/site-news/">site-news</a></li>
+							<li><a href="/blog/tags/missing-content/">missing-content</a></li>
+					</ul>
 				</div>
 				<div class="sidebar-module well">
 					<div id="diigo_linkroll">

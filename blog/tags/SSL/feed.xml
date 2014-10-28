@@ -9,36 +9,6 @@
 		<generator>http://HuddledMasses.org/PowerSite</generator>
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<item>
-				<title>How the developer&#39;s brain works</title>
-				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
-				<guid ispermalink="true">http://HuddledMasses.org/blog/developer-brain/index.html</guid>
-				<description><![CDATA[<ol>
-<li>I need to finish <a href="https://GitHub.com/PoshCode/PoshCode">the PoshCode module</a>, so I start working on that ...</li>
-<li>I realize the "Configuration" module that is inside PoshCode, is actually more important than PoshCode (that is, I think more developers will use it, because even PowerShellGet users need this)</li>
-<li>I decide to separate the Configuration module project and fully test it.</li>
-<li>I start writing tests for <a href="https://GitHub.com/PoshCode/Configuration">the Configuration module</a> but remember that I hate RSpec syntax.</li>
-<li>I fork [Pester], and add support for Gherkin and feature definition files</li>
-<li>I return to development on the Configuration module, using it as a testbed for missing features in Pester's Gherkin support.</li>
-<li>I finally finish the Pester Gherkin support and <a href="https://GitHub.com/Pester/Pester/tree/Gherkin">get it accepted</a> to the Pester repository, feeling a great sense of accomplishment</li>
-<li>The Pester team wants to refactor the main module to make new interfaces like Gherkin easier to write, but puts it on a back burner for the next release.</li>
-<li>I set my project aside until they have time to work on the refactor, forgetting that the whole reason I was working on this was so I could finish PoshCode ...</li>
-<li>I decide to write a blog post about it ...</li>
-<li>I remember that I'm still using a Python static blog generator ...</li>
-<li>I find <a href="https://github.com/robmen/tinysite">Rob Mensching's TinySite</a>, but it's basically an abandoned prototype, and I think it's ridiculous that it uses json ...</li>
-<li>I wonder if a static generator in .Net would be a good way to present on templating langauges for our local user group</li>
-<li>I consider how nice it would be if the generators had PowerShell cmdlets instead of weird multi-command mode commands that don't actually shell</li>
-<li>And two weeks later, I have a first draft version of <a href="https://github.com/Jaykul/PowerSite">PowerSite</a>, my very own <a href="https://github.com/Jaykul/PowerSite">static blog engine</a>, that works well enough to switch this blog over to it, and I can write that blog post...</li>
-</ol>
-
-<h2>But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.</h2>
-
-<h4>Oh, wait, what ever happened to that Configuration module? Did I finish that?</h4>
-
-<h6>Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!</h6>
-
-<p>True story. This might be why God invented managers.</p>]]></description>
-			</item>
-			<item>
 				<title>Validating Self-Signed Certificates From .Net and PowerShell</title>
 				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
 				<guid ispermalink="true">http://HuddledMasses.org/blog/validating-self-signed-certificates-properly-from-powershell/index.html</guid>
@@ -116,87 +86,6 @@ The script block you attempted to invoke was:  $true
 <p>So, what I've written is first a check for the three main SSL errors, and a way to pre-emptively ignore them once, or post-humously trust a certificate that failed the first time, as well as some better error messages (which have to be output using Console.Error.WriteLine rather than Write-Error because they might be running on a background thread).</p>
 
 <p>For now, that's enough of an explanation, I've posted the <a href="https://github.com/Jaykul/Tunable-SSL-Validator">tunable SSL validator code to github</a>, and this blog post as the ReadMe, where I'll update it with more details if need be.</p>]]></description>
-			</item>
-			<item>
-				<title>A Fresh Start</title>
-				<dc:creator>Joel Bennett</dc:creator>
-				<guid ispermalink="true">http://HuddledMasses.org/blog/a-fresh-start/index.html</guid>
-				<description><![CDATA[<p>A few weeks ago, someone somehow injected a shell onto my WordPress powered blog site. They managed to get multiple hacking tools installed, delete files required for hosting, and who knows what else. Needless to say I was frustrated and upset. In fact, I was so frustrated that to get rid of it I just tore down the whole site. </p>
-
-<p>I apologize for all the hundreds of broken links that are pointed at my domain right now. I have a database backup, but I want to try a few other blogging tools out, and I am not sure I can trust the downloads or even images on the old site -- I don't want to restore all the posts <em>and then</em> find out the downloads are infected or the images have been replaced. Furthermore, when I stood up a new WordPress site, it did not perform well on my DreamHost server, and I started to wonder if I needed new hosting or new blogging tools.</p>
-
-<h2>A state of flux</h2>
-
-<p>In the end, I decided to try switching to a static site generator instead of a server-side blogging tool, so I went to <a href="http://www.staticgen.com/">StaticGen</a> and I've started working my way through some of the many interesting options.  I'll probably be switching back and forth between them over the coming days, so the site may change quite a bit (not just visually, but in permalinks, etc.) until I settle on one.</p>
-
-<p>I also decided that I will not restore the database backup and deal with cleaning all the downloads that have accumulated in the last ... almost 20 years of blogging (isn't that crazy?).  Instead,  I will start over. I can still restore individual articles from my old blog by hand (at least the ones that people really are still looking for), and that will give me the chance to update the content and to convert them to markdown (yeah, I think textile lost that battle).</p>
-
-<p>Please <a href="/missing-content/">let me know</a> when you hit a missing page that you want back, and I'll move that up my priority list.</p>]]></description>
-			</item>
-			<item>
-				<title>Missing Content</title>
-				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
-				<guid ispermalink="true">http://HuddledMasses.org/blog/missing-content/index.html</guid>
-				<description><![CDATA[<p>Since I've blown away all my old blog content, there are a lot of pages missing that were really useful. 
-I'm going to bring the best of them back, and I have plans to actually rewrite some of the older ones to update them 
-(part of the reason I let the old ones go is that some of them were so out-of-date that they might have been misleading).</p>
-
-<p>If there is one or more of my old articles in particular that you'd like to see come back, please post a comment below!</p>]]></description>
-			</item>
-			<item>
-				<title>About Huddled Masses</title>
-				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
-				<guid ispermalink="true">http://HuddledMasses.org/blog/about-huddled-masses/index.html</guid>
-				<description><![CDATA[<p>This is web site is dedicated to the musings of Joel Bennett (aka Jaykul) 
-about technology, software, software development, the web, and the world.</p>
-
-<p>Any resemblance of the views expressed and the views of my employer, my terminal, or the view out my window 
-are purely coincidental. The resemblance between them and my own views is non-deterministic. 
-The question of the existence of views in the absence of anyone to hold them is left as an exercise for the reader.</p>
-
-<h2>The Man of Many Hats</h2>
-
-<blockquote>
-  <p>Not like the giant companies of great fame,<br />
-  With componentized factories cranking out clones;<br />
-  Here on our white-washed pages shall stand<br />
-  A solitary man with a keyboard whose products<br />
-  Are the collected sparks, and his name:<br />
-  The DevOps King.<br />
-  <br />
-  -- Joel Bennett<br /></p>
-</blockquote>
-
-<p>With apologies to Emma Lazarus:</p>
-
-<h2>The New Colossus</h2>
-
-<blockquote>
-  <p>Not like the brazen giant of Greek fame,<br />
-  With conquering limbs astride from land to land;<br />
-  Here at our sea-washed, sunset gates shall stand<br />
-  A mighty woman with a torch, whose flame<br />
-  Is the imprisoned lightning, and her name<br />
-  Mother of Exiles. From her beacon-hand<br />
-  Glows world-wide welcome; her mild eyes command<br />
-  The air-bridged harbor that twin cities frame.<br />
-  "Keep ancient lands, your storied pomp!" cries she<br />
-  With silent lips. "Give me your tired, your poor,<br />
-  Your huddled masses yearning to breathe free,<br />
-  The wretched refuse of your teeming shore.<br />
-  Send these, the homeless, tempest-tost to me,<br />
-  I lift my lamp beside the golden door!"<br />
-  <br />
-  -- Emma Lazarus<br /></p>
-</blockquote>
-
-<p><strong>Please Note:</strong> I occasionally link to things I think are great.
-When I do, I occasionally find a "referral code" so I can make a little cash.
-I promise that I don't link to anything just because of the cash 
-(I wouldn't cross the street for the amount of cash those links bring in, never mind write a whole blog post), 
-and I promise I won't let anyone buy links in my blog content ... 
-but I do not promise that things I link to will stay great as time passes, 
-nor that you will agree with me about their greatness!</p>]]></description>
 			</item>
 	</channel>
 </rss>

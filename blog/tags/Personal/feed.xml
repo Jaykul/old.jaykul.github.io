@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Huddled Masses</title>
+		<link>http://HuddledMasses.org/blog/</link>
+		<description>You can do more than breathe for free...</description>
+		<language>en</language>
+		<lastbuilddate>Tue, 28 Oct 2014 07:06:46 GMT</lastbuilddate>
+		<generator>http://HuddledMasses.org/PowerSite</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+			<item>
+				<title>How the developer&#39;s brain works</title>
+				<dc:creator>Joel &quot;Jaykul&quot; Bennett</dc:creator>
+				<guid ispermalink="true">http://HuddledMasses.org/blog/developer-brain/index.html</guid>
+				<description><![CDATA[<ol>
+<li>I need to finish <a href="https://GitHub.com/PoshCode/PoshCode">the PoshCode module</a>, so I start working on that ...</li>
+<li>I realize the "Configuration" module that is inside PoshCode, is actually more important than PoshCode (that is, I think more developers will use it, because even PowerShellGet users need this)</li>
+<li>I decide to separate the Configuration module project and fully test it.</li>
+<li>I start writing tests for <a href="https://GitHub.com/PoshCode/Configuration">the Configuration module</a> but remember that I hate RSpec syntax.</li>
+<li>I fork [Pester], and add support for Gherkin and feature definition files</li>
+<li>I return to development on the Configuration module, using it as a testbed for missing features in Pester's Gherkin support.</li>
+<li>I finally finish the Pester Gherkin support and <a href="https://GitHub.com/Pester/Pester/tree/Gherkin">get it accepted</a> to the Pester repository, feeling a great sense of accomplishment</li>
+<li>The Pester team wants to refactor the main module to make new interfaces like Gherkin easier to write, but puts it on a back burner for the next release.</li>
+<li>I set my project aside until they have time to work on the refactor, forgetting that the whole reason I was working on this was so I could finish PoshCode ...</li>
+<li>I decide to write a blog post about it ...</li>
+<li>I remember that I'm still using a Python static blog generator ...</li>
+<li>I find <a href="https://github.com/robmen/tinysite">Rob Mensching's TinySite</a>, but it's basically an abandoned prototype, and I think it's ridiculous that it uses json ...</li>
+<li>I wonder if a static generator in .Net would be a good way to present on templating langauges for our local user group</li>
+<li>I consider how nice it would be if the generators had PowerShell cmdlets instead of weird multi-command mode commands that don't actually shell</li>
+<li>And two weeks later, I have a first draft version of <a href="https://github.com/Jaykul/PowerSite">PowerSite</a>, my very own <a href="https://github.com/Jaykul/PowerSite">static blog engine</a>, that works well enough to switch this blog over to it, and I can write that blog post...</li>
+</ol>
+
+<h2>But I totally can't remember why I thought the Pester/Configuration/PoshCode thing was worth blogging about in the first place.</h2>
+
+<h4>Oh, wait, what ever happened to that Configuration module? Did I finish that?</h4>
+
+<h6>Ohhhhh... shoot! The PoshCode module was supposed to be finished in August!</h6>
+
+<p>True story. This might be why God invented managers.</p>]]></description>
+			</item>
+	</channel>
+</rss>
