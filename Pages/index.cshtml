@@ -2,13 +2,12 @@
 @using PowerSite.DataModel
 @inherits  RazorEngine.Templating.TemplateBase<dynamic>
 @{
-	Layout = "SiteLayout.cshtml";
 	ViewBag.Active = "Home";
 }
 
 @section head {
-	<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud" /> 
-	<link rel="openid2.local_id" href="https://profiles.google.com/+JoelBennett" /> 
+	<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+	<link rel="openid2.local_id" href="https://openid.stackexchange.com/user/b167be35-3674-4571-8142-df1f7dcfc268">
 }
 
 <div class="jumbotron">
@@ -22,20 +21,20 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="panel panel-default" style="height:150px;">
-				<div class="panel-heading"><h3 class="panel-title"><a href="http://ShowUI.CodePlex.com/">ShowUI</a></h3></div>
+				<div class="panel-heading"><h3 class="panel-title"><a href="https://github.com/ShowUI/ShowUI">ShowUI</a></h3></div>
 				<div class="panel-body"><p>My module for building graphical user interfaces in PowerShell with the power of WPF</p></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default" style="height:150px;">
 				<div class="panel-heading"><h3 class="panel-title"><a href="http://PoshCode.org">PoshCode</a></h3></div>
-				<div class="panel-body"><p>A place for sharing your PowerShell scripts, and finding other people’s</p></div>
+				<div class="panel-body"><p>A place for sharing your PowerShell scripts, and finding other people's</p></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default" style="height:150px;">
 				<div class="panel-heading"><h3 class="panel-title"><a href="http://WASP.CodePlex.com">WASP</a></h3></div>
-				<div class="panel-body"><p>The Windows Automation Snapin for PowerShell</p></div>
+				<div class="panel-body"><p>The old Windows Automation Snapin for PowerShell</p></div>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -46,18 +45,18 @@
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default" style="height:150px;">
-				<div class="panel-heading"><h3 class="panel-title"><a href="https://github.com/Jaykul/Reflection">XML</a> DSL</h3></div>
+				<div class="panel-heading"><h3 class="panel-title"><a href="https://github.com/Jaykul/Xml">XML</a> DSL</h3></div>
 				<div class="panel-body"><p>The latest version of my DSL for generating XML documents in PowerShell</p></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default" style="height:150px;">
 				<div class="panel-heading"><h3 class="panel-title"><a href="http://PoshConsole.CodePlex.com">PoshConsole</a></h3></div>
-				<div class="panel-body"><p>An old personal project: the open source WPF PowerShell host</p></div>
+				<div class="panel-body"><p>An even older personal project: the open source WPF PowerShell host. Recently converted to a <a href="https://github.com/Jaykul/PoshConsole/">WPF Control</a> usable in other applications.</p></div>				
 			</div>
 		</div>
 	</div>
 </div> <!-- /container -->
 <footer class="blog-footer">
-	<p>&copy; @Site.Current.Author.Name 2014</p>
+	<p>&copy; @Site.Current.Author.Name @DateTime.Now.Year</p>
 </footer>
